@@ -65,6 +65,7 @@ var handleSignedInUser = function(user) {
   document.getElementById('user-signed-out').style.display = 'none';
   document.getElementById('name').textContent = user.displayName;
   document.getElementById('email').textContent = user.email;
+  document.getElementById('jollofimage').innerHTML="<img width='300' src='https://cdn-images-1.medium.com/max/1600/1*lCvrAvSZM-1UmO0XeNP7Tg.jpeg' />";
   if (user.photoURL){
     document.getElementById('photo').src = user.photoURL;
     document.getElementById('photo').style.display = 'block';

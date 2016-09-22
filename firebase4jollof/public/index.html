@@ -7,13 +7,28 @@
 
     <!-- END OF WEB SNIPPET -->
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDzfhziatC6Ju9LcccKdlzckOzHkASjhPw",
+        authDomain: "fir-4jollof.firebaseapp.com",
+        databaseURL: "https://fir-4jollof.firebaseio.com",
+        storageBucket: "fir-4jollof.appspot.com",
+        messagingSenderId: "168324266886"
+      };
+      firebase.initializeApp(config);
+    </script>
+
     <script src="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.js"></script>
+
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/0.5/firebase-ui-auth.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <div id="container">
-      <h3>FirebaseUI Demo</h3>
+      <h3>Get a treat</h3>
       <div id="loading">Loading...</div>
       <div id="loaded" class="hidden">
         <div id="main">
@@ -25,6 +40,8 @@
               <div id="name"></div>
               <div id="email"></div>
               <div class="clearfix"></div>
+
+              <div id="jollofimage"></div>
             </div>
             <p>
               <button id="sign-out">Sign Out</button>
