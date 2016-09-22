@@ -1,4 +1,4 @@
-# FirebaseUI for web - Auth Demo
+# Firebase4Jollof - Auth Demo
 
 Accessible here:
 [https://fir-4jollof.firebaseapp.com/](https://fir-4jollof.firebaseapp.com/).
