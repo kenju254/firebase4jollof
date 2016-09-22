@@ -1,7 +1,7 @@
 # FirebaseUI for web - Auth Demo
 
 Accessible here:
-[https://fir-ui-demo-84a6c.firebaseapp.com](https://fir-ui-demo-84a6c.firebaseapp.com).
+[https://fir-4jollof.firebaseapp.com/](https://fir-4jollof.firebaseapp.com/).
 
 ## Prerequisite
 
@@ -18,8 +18,8 @@ Auth > Sign-in methods.
 
 Run:
 
-    git clone https://github.com/firebase/firebaseui-web.git
-    cd firebaseui-web/examples/demo
+    git clone https://github.com/kenju254/firebase4jollof.git
+    cd firebase4jollof
     firebase use --add
 
 This will clone the repository in the current directory, and start a wizard to configure firebase
